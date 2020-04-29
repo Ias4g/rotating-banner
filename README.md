@@ -15,4 +15,4 @@
 ![20200429_183437](https://user-images.githubusercontent.com/62667424/80649481-7f862e80-8a48-11ea-823f-bc0a23bea629.gif)
 
 
-<p align="center">Para ver em funcionamento: [clique aqui](https://banner-rotate.000webhostapp.com/)</p>
+Para ver em funcionamento: [clique aqui](https://banner-rotate.000webhostapp.com)
