@@ -12,7 +12,6 @@
 <h3 align="center">Technologies used.</h3>
 <h5 align="center">HTML5 - CSS3 - JavaScript</h5>
 
-![20200429_183437](https://user-images.githubusercontent.com/62667424/80649481-7f862e80-8a48-11ea-823f-bc0a23bea629.gif)
-
-
 Para ver em funcionamento: [clique aqui](https://banner-rotate.000webhostapp.com)
+
+![20200429_183437](https://user-images.githubusercontent.com/62667424/80649481-7f862e80-8a48-11ea-823f-bc0a23bea629.gif)
