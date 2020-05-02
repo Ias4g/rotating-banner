@@ -5,6 +5,7 @@
 
 body{
     display: flex;
+    flex-direction: column;
     float: center;
     justify-content: center;
     align-items: center;
@@ -69,5 +70,20 @@ body{
     justify-content: center;
     align-items: center;
 
-    margin-top: 3%;
+    margin-top: 1%;
+}
+
+footer{
+    margin-top: 2%;
+    color: #979494;
+}
+
+footer a{
+    text-decoration: none;
+    color: #979494;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: #000;
 }
