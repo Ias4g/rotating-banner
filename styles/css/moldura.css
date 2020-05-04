@@ -1,25 +1,27 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
-body{
+html, body{
+    width: 100%;
+    height:100%;
+    background: #e8e8e8;
+}
+
+.principal{
+    width: 100%;
+    height: 100%;
     display: flex;
-    flex-direction: column;
-    float: center;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    position: relative;
 }
 
 .conteudo{
     width: 42vw;
-    /* max-width: 400px; */
-
     height: 25vw;
-    /* max-height: 266px; */
-
     border: 4px solid #999;
-    /* background: transparent url(); */
     background: #fff;
     position: relative;
 }
@@ -39,15 +41,9 @@ body{
 
 .moldura-dois{
     width: 52vw;
-    /* width: 80%; */
-    /* max-width: 500px; */
-    /* height: 70%; */
     height: 32vw;
-    /* max-height: 350px !important; */
-    border: 8px inset #5f6632;
-    /* padding: 15px; */
     background: #b1b1c3;
-
+    border: 8px inset #5f6632;
     display: flex;
     flex-direction: center;
     justify-content: center;
@@ -56,34 +52,32 @@ body{
 
 .moldura-um{
     width: 60vw;
-    /* max-width: 700px; */
-
     height: 40vw;
-    /* max-height: 400px; */
-
     border: 20px inset #5d738b;
-    /* padding: 25px; */
     background: transparent url(../../img/Textura.jpg);
-
     display: flex;
     flex-direction: center;
     justify-content: center;
     align-items: center;
-
-    margin-top: 1%;
-}
-
-footer{
     margin-top: 2%;
-    color: #979494;
 }
 
-footer a{
-    text-decoration: none;
+.footer{
+    width: 100%;
     color: #979494;
+    border-top: 1px solid #b1b1c388;
+    font-size: 10pt;
+    text-align: center;
+    position: absolute;
+    bottom:5px;
+}
+
+.footer footer a{
+    text-decoration: none;
+    color: #263C5F;
 }
 
 footer a:hover{
     text-decoration: underline;
-    color: #000;
+    font-weight: bold;
 }
