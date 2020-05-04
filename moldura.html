@@ -27,21 +27,31 @@
     <link rel="stylesheet" href="styles/css/moldura.css">
 </head>
 
-<body>
-    <div class="moldura-um">
-        <div class="moldura-dois">
-            <div id="slider" class="conteudo">
-                <img src="img/img_01.jpg" alt="1ª imagem">
-                <img src="img/img_02.jpg" alt="2ª imagem" class="selected">
-                <img src="img/img_03.jpg" alt="3ª imagem">
-                <img src="img/img_04.jpg" alt="4ª imagem">
-                <img src="img/img_05.jpg" alt="4ª imagem">
+<body onload="getYear()">
+    <div class="principal">
+        <div class="moldura-um">
+            <div class="moldura-dois">
+                <div id="slider" class="conteudo">
+                    <img src="img/img_01.jpg" alt="1ª imagem">
+                    <img src="img/img_02.jpg" alt="2ª imagem" class="selected">
+                    <img src="img/img_03.jpg" alt="3ª imagem">
+                    <img src="img/img_04.jpg" alt="4ª imagem">
+                    <img src="img/img_05.jpg" alt="4ª imagem">
+                </div>
             </div>
         </div>
+
     </div>
-    <footer>
-        <p>Com 💞 by - &copy; <a href="https://github.com/Ias4g" target="_blank">Emunah, Inc.</a></p>
-    </footer>
+    <div id="year"></div>
+    <div class="footer">
+        <footer>
+            <p>Com 💞 <a href="https://github.com/Ias4g"
+                target="_blank">Izael silva</a> by Emunah Inc. &copy;
+                <script>document.write(new Date().getFullYear())</script>
+                 - Todos os direitos reservados
+            </p>
+        </footer>
+    </div>
     <script src="styles/js/script.js"></script>
 </body>
 
